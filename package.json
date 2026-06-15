@@ -1,0 +1,14 @@
+{
+  "name": "pharmacy-minder",
+  "version": "1.0.0",
+  "description": "Comprehensive pharmacy management system",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"cd server && npm run dev\" \"cd client && npm run dev\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}

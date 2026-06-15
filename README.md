@@ -24,16 +24,6 @@ A comprehensive pharmacy management system built with React (Vite) and Node.js (
 - JWT Authentication
 - Zod for validation
 
-## Project Structure
-
-```
-pharmacy-minder/
-├── client/          # React frontend
-├── server/          # Express backend
-├── database/        # SQL schemas
-└── docs/            # Documentation
-```
-
 ## Getting Started
 
 ### Prerequisites
@@ -43,13 +33,7 @@ pharmacy-minder/
 
 ### Installation
 
-1. **Clone the repository**
-```bash
-git clone https://github.com/mohdakiff-commits/pharmacy-minder.git
-cd pharmacy-minder
-```
-
-2. **Install dependencies**
+1. **Install dependencies**
 
 Frontend:
 ```bash
@@ -63,7 +47,7 @@ cd server
 npm install
 ```
 
-3. **Environment Setup**
+2. **Environment Setup**
 
 Create `.env` files in both `client/` and `server/` directories.
 
@@ -80,7 +64,7 @@ NODE_ENV=development
 VITE_API_URL=http://localhost:5000/api
 ```
 
-4. **Run the application**
+3. **Run the application**
 
 Backend:
 ```bash
